@@ -1,16 +1,16 @@
-class myClass {
+package Basics;
 
-    public void myMethod() {
-        System.out.println("I am learning java.");
-
+public class MainClass extends Person {
+    public static void main(String[] args) {
+        Person p=new Person();
+        p.age=20;
+        p.name="Ahashan";
+        System.out.println(p.name+" - "+ p.age);
     }
+
 }
 
-
-public class MainClass {
-    public static void main(String[] args) {
-        myClass method= new myClass();
-        method.myMethod();
-    }
-
+class Person{
+    String name;
+    int age;
 }
