@@ -8,7 +8,7 @@ public class App {
         System.out.println(r.getName());
 
         r.setBirthDay(14);
-        r.setBirthMonth(09);
+        r.setBirthMonth(9);
         r.setBirthYear(2000);
         System.out.println( "Current Age of the Customer: "+r.getAge(r.getBirthDay(), r.getBirthMonth(), r.getBirthYear()));
 
@@ -65,5 +65,3 @@ class Customer extends Person  {
     }
 
 }
-
-
